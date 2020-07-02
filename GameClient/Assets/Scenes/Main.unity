@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ip: 127.0.0.1
   port: 7777
-  myId: 1
+  myId: 0
 --- !u!4 &1426428278
 Transform:
   m_ObjectHideFlags: 0
