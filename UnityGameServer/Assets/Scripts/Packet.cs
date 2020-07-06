@@ -13,7 +13,10 @@ using System.Text;
 		playerRotation,
 		playerDisconnected,
 		playerHealth, 
-		playerRespawned
+		playerRespawned,
+		createItemSpawner,
+		itemSpawned,
+		itemPickedUp
 	}
 
 	/// <summary>Sent from client to server.</summary>
