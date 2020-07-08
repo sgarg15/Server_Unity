@@ -95,3 +95,5 @@ MonoBehaviour:
   spawnerId: 0
   hasItem: 0
   itemModel: {fileID: 7415139491738349115}
+  itemRotationSpeed: 100
+  itemBobSpeed: 2

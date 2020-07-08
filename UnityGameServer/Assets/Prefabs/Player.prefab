@@ -82,9 +82,12 @@ MonoBehaviour:
   shootOrigin: {fileID: 2073172848253477995}
   gravity: -19.62
   moveSpeed: 5
-  jumpSpeed: 9
+  jumpSpeed: 25
+  throwForce: 600
   health: 0
   maxHealth: 100
+  itemAmount: 0
+  maxItemAmount: 3
 --- !u!143 &822351048875114922
 CharacterController:
   m_ObjectHideFlags: 0

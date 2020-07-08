@@ -16,7 +16,10 @@ using System.Text;
 		playerRespawned,
 		createItemSpawner,
 		itemSpawned,
-		itemPickedUp
+		itemPickedUp,
+		spawnProjectile, 
+		projectilePosition, 
+		projectileExploded
 	}
 
 	/// <summary>Sent from client to server.</summary>
@@ -24,7 +27,8 @@ using System.Text;
 	{
 		welcomeReceived = 1,
 		playerMovement,
-		playerShoot
+		playerShoot, 
+		playerThrowItem
 	}
 
 	public class Packet : IDisposable
